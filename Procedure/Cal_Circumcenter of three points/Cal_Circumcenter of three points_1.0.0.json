@@ -1,0 +1,168 @@
+{
+    "ctrl_flows": [
+    ],
+    "data_flows": [
+        {
+            "dest_port": 0,
+            "dest_step": "{3e638f54-0ff9-43c3-b37a-dc39152a838b}",
+            "src_port": 0,
+            "src_step": "{b86411e2-38e5-433b-9905-5c93f5185883}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{56e046e6-189d-4c7b-ad1d-3301e9bafec6}",
+            "src_port": 0,
+            "src_step": "{3e638f54-0ff9-43c3-b37a-dc39152a838b}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{3e638f54-0ff9-43c3-b37a-dc39152a838b}",
+            "src_port": 0,
+            "src_step": "{aa82e72f-543a-42a5-bb2b-883447946426}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{b86411e2-38e5-433b-9905-5c93f5185883}",
+            "src_port": 0,
+            "src_step": "{cb4a3a32-7bdf-4b52-8dd6-c99735b16bbe}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{75f698a9-e9ec-48aa-9c09-a1a3b6f7bd22}",
+            "src_port": 0,
+            "src_step": "{56e046e6-189d-4c7b-ad1d-3301e9bafec6}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{b86411e2-38e5-433b-9905-5c93f5185883}",
+            "src_port": 0,
+            "src_step": "{f776e69a-1a11-4849-bf62-b247bb3cfe1c}"
+        }
+    ],
+    "execFlags": 8,
+    "guid": "{dda7a828-7dbc-4d6e-ac02-4f87d36b57c2}",
+    "name": {
+        "en": "Cal_Circumcenter of three points",
+        "ko": "계산_세개의 포즈에 대한  외심"
+    },
+    "objectName": "프로시저_3",
+    "parameterTuningLevel": 0,
+    "procedure_ends": [
+        {
+            "port": 0,
+            "step": "{75f698a9-e9ec-48aa-9c09-a1a3b6f7bd22}"
+        }
+    ],
+    "procedure_entries": [
+        {
+            "port": 0,
+            "step": "{f776e69a-1a11-4849-bf62-b247bb3cfe1c}"
+        },
+        {
+            "port": 0,
+            "step": "{cb4a3a32-7bdf-4b52-8dd6-c99735b16bbe}"
+        },
+        {
+            "port": 0,
+            "step": "{aa82e72f-543a-42a5-bb2b-883447946426}"
+        }
+    ],
+    "property_groups": {
+    },
+    "scene_pos": [
+        253.375,
+        67.875
+    ],
+    "steps": [
+        {
+            "execFlags": 12,
+            "guid": "{56e046e6-189d-4c7b-ad1d-3301e9bafec6}",
+            "inputSource": 1,
+            "objectName": "3D 벡터 연산_4",
+            "operationType": 3,
+            "parameterTuningLevel": 0,
+            "predefinedNumber": 3,
+            "predefinedVector": "0, 0, 1",
+            "scene_pos": [
+                -53.5,
+                819.875
+            ],
+            "type": "Vector3D Arithmetic Operations"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{cb4a3a32-7bdf-4b52-8dd6-c99735b16bbe}",
+            "objectName": "Point 2_Cal",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                330.5,
+                -114.125
+            ],
+            "type": "Accept All"
+        },
+        {
+            "execFlags": 12,
+            "guid": "{b86411e2-38e5-433b-9905-5c93f5185883}",
+            "inputSource": 0,
+            "objectName": "3D 벡터 연산_5",
+            "operationType": 0,
+            "parameterTuningLevel": 0,
+            "predefinedNumber": 1,
+            "predefinedVector": "0, 0, 1",
+            "scene_pos": [
+                -53.5,
+                181.875
+            ],
+            "type": "Vector3D Arithmetic Operations"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{75f698a9-e9ec-48aa-9c09-a1a3b6f7bd22}",
+            "objectName": "Output_cal",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                -53.5,
+                1138.875
+            ],
+            "type": "Accept All"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{f776e69a-1a11-4849-bf62-b247bb3cfe1c}",
+            "objectName": "Point 1_Cal",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                -53.5,
+                -114.125
+            ],
+            "type": "Accept All"
+        },
+        {
+            "execFlags": 12,
+            "guid": "{3e638f54-0ff9-43c3-b37a-dc39152a838b}",
+            "inputSource": 0,
+            "objectName": "3D 벡터 연산_6",
+            "operationType": 0,
+            "parameterTuningLevel": 0,
+            "predefinedNumber": 1,
+            "predefinedVector": "0, 0, 1",
+            "scene_pos": [
+                -53.5,
+                500.875
+            ],
+            "type": "Vector3D Arithmetic Operations"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{aa82e72f-543a-42a5-bb2b-883447946426}",
+            "objectName": "Point 3_Cal",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                330.5,
+                173.875
+            ],
+            "type": "Accept All"
+        }
+    ],
+    "type": "Procedure"
+}

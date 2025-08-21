@@ -16,6 +16,19 @@
 ## 프로시저 목록  
 
 <!-- Convert_Merge Data[변환_데이터 합치기] -->
+ - [Cal_Circumcenter of three points](https://github.com/KimJihun-1315/Mech-Mind_Precedure/tree/main/Procedure/Cal_Circumcenter%20of%20three%20points)
+ [변환_데이터 합치기]
+    <details>
+    <summary>Version</summary>
+    
+    **1.0.0**       
+     프로시저 생성
+
+    </details>
+
+
+
+<!-- Convert_Merge Data[변환_데이터 합치기] -->
  - [Convert_Merge Data](https://github.com/KimJihun-1315/Mech-Mind_Precedure/tree/main/Procedure/Convert_Merge%20Data)
  [변환_데이터 합치기]
     <details>

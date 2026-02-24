@@ -18,7 +18,7 @@
 ## 01. 계산
 
 <!-- Cal_Circumcenter of three points[3점을 통한 외심 구하기] -->
-### [Cal_Circumcenter of three points](https://github.com/KimJihun-1315/Mech-Mind_Precedure/tree/main/Procedure/Cal_Circumcenter%20of%20three%20points) [계산_세점을 통한 외심]
+### [Cal_Circumcenter of three points](./Procedure/Calculrate) [계산_세점을 통한 외심]
     각기 다른 3곳의 포즈를 통하여 외심을 구함<br>
     ex) 3곳의 꼭짓점을 구하고 이를 통한 제품의 중심점을 유추할때 사용 됨
 
@@ -26,7 +26,7 @@
 
 ## 02. 변환
 <!-- Convert_Merge Data[변환_데이터 합치기] -->
-### [Convert_Merge Data](./Procedure/Convert_Merge%20Data) [변환_데이터 합치기]
+### [Convert_Merge Data](./Procedure/Convert) [변환_데이터 합치기]
     <br>
     ex)
 
@@ -34,11 +34,11 @@
 
 ## 03. 취득
 <!-- Get_Highest PointCloud[취득_최상단 포인트클라우드] -->
-### [Get_Highest PointCloud](https://github.com/KimJihun-1315/Mech-Mind_Precedure/tree/main/Procedure/Get_Highest%20PointCloud) [취득_최상단 포인트클라우드]
+### [Get_Highest PointCloud](./Procedure/GetData) [취득_최상단 포인트클라우드]
     <br>
     ex)
 <!-- Get_Pose through MaskImage[취득_마스크를 통한 포즈] -->
-### [Get_Pose through MaskImage](https://github.com/KimJihun-1315/Mech-Mind_Precedure/tree/main/Procedure/Get_Pose%20through%20MaskImage) [취득_마스크를 통한 포즈]
+### [Get_Pose through MaskImage](./Procedure/GetData) [취득_마스크를 통한 포즈]
     <br>
     ex)
 
@@ -46,11 +46,11 @@
 
 ## 04.저장
 <!-- Save_HighestPart(PointCloud) Image[저장_최상단 포인트클라우드 이미지] -->
-### [Save_Highest PointCloud Image](https://github.com/KimJihun-1315/Mech-Mind_Precedure/tree/main/Procedure/Save_Highest%20PointCloud%20Image) [저장_최상단 포인트클라우드 이미지]
+### [Save_Highest PointCloud Image](./Procedure/SaveData) [저장_최상단 포인트클라우드 이미지]
     <br>
     ex) 
 <!-- Save_Image for PointCloud[저장_포인트클라우드에 해당하는 이미지] -->
- ### [Save_Image for PointCloud](https://github.com/KimJihun-1315/Mech-Mind_Precedure/tree/main/Procedure/Save_Image%20for%20PointCloud) [저장_포인트클라우드에 해당하는 이미지]
+ ### [Save_Image for PointCloud](./Procedure/SaveData) [저장_포인트클라우드에 해당하는 이미지]
     <br>
     ex) 
 

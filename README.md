@@ -17,22 +17,22 @@
 
 ## 01. 계산
 
-<!-- Cal_Circumcenter of three points[3점을 통한 외심 구하기] -->
-### [Cal_Circumcenter of three points](./Procedure/Calculrate) [계산_세점을 통한 외심]
-    각기 다른 3곳의 포즈를 통하여 외심을 구함<br>
-    ex) 3곳의 꼭짓점을 구하고 이를 통한 제품의 중심점을 유추할때 사용 됨
+<!-- Cal_3D Circumcentric offset(Vector)[계산_3차원 외심 오프셋(벡터)] -->
+### [Cal_3D Circumcentric offset(Vector)](./Procedure/Calculrate) [계산_3차원 외심 오프셋(벡터)]
+    3차원상의 점을 통하여 점A에서 외심까지의 거리를 구하는 계산식<br>
+    ![alt text](image.png)
+
+<!-- Cal_Centroid of 3 Poses[계산_3개 포즈의 무게중심] -->
+### [Cal_Centroid of 3 Poses](./Procedure/Calculrate) [계산_3개 포즈의 무게중심]
+    각기 다른 3곳의 포즈를 통해 무게 중심을 구함<br>
+    
+<!-- Cal_Circumcenter of 3 Poses[계산_3개 포즈의 외심] -->
+### [Cal_Circumcenter of 3 Poses](./Procedure/Calculrate) [계산_3개 포즈의 외심]
+    각기 다른 3곳의 포즈를 통해 외심을 구함<br>
 
 <br><br>
 
-## 02. 변환
-<!-- Convert_Merge Data[변환_데이터 합치기] -->
-### [Convert_Merge Data](./Procedure/Convert) [변환_데이터 합치기]
-    <br>
-    ex)
-
-<br><br>
-
-## 03. 취득
+## 02. 취득
 <!-- Get_Highest PointCloud[취득_최상단 포인트클라우드] -->
 ### [Get_Highest PointCloud](./Procedure/GetData) [취득_최상단 포인트클라우드]
     <br>
@@ -44,13 +44,13 @@
 
 <br><br>
 
-## 04.저장
+## 03.저장
 <!-- Save_HighestPart(PointCloud) Image[저장_최상단 포인트클라우드 이미지] -->
 ### [Save_Highest PointCloud Image](./Procedure/SaveData) [저장_최상단 포인트클라우드 이미지]
     <br>
     ex) 
 <!-- Save_Image for PointCloud[저장_포인트클라우드에 해당하는 이미지] -->
- ### [Save_Image for PointCloud](./Procedure/SaveData) [저장_포인트클라우드에 해당하는 이미지]
+### [Save_Image for PointCloud](./Procedure/SaveData) [저장_포인트클라우드에 해당하는 이미지]
     <br>
     ex) 
 

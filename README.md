@@ -19,16 +19,16 @@
 
 <!-- Cal_3D Circumcentric offset(Vector)[계산_3차원 외심 오프셋(벡터)] -->
 ### [Cal_3D Circumcentric offset(Vector)](./Procedure/Calculrate) [계산_3차원 외심 오프셋(벡터)]
-    3차원상의 점을 통하여 점A에서 외심까지의 거리를 구하는 계산식<br>
-    ![alt text](image.png)
+    3차원상의 점을 통하여 점A에서 외심까지의 거리를 구하는 계산식
+![ 계산식 ](image.png)
 
 <!-- Cal_Centroid of 3 Poses[계산_3개 포즈의 무게중심] -->
 ### [Cal_Centroid of 3 Poses](./Procedure/Calculrate) [계산_3개 포즈의 무게중심]
-    각기 다른 3곳의 포즈를 통해 무게 중심을 구함<br>
-    
+    각기 다른 3곳의 포즈를 통해 무게 중심을 구함
+
 <!-- Cal_Circumcenter of 3 Poses[계산_3개 포즈의 외심] -->
 ### [Cal_Circumcenter of 3 Poses](./Procedure/Calculrate) [계산_3개 포즈의 외심]
-    각기 다른 3곳의 포즈를 통해 외심을 구함<br>
+    각기 다른 3곳의 포즈를 통해 외심을 구함
 
 <br><br>
 
@@ -67,4 +67,12 @@
 
 * <b> 2026.02.25</b>
   <br>전체 내용 수정 및 간소화
+
+* <b> 2026.03.03</b>
+  <br> 01.계산/Cal_Circumcenter of 3 Poses : 내부 계산법 오류 보완
+  <br> 01.계산/Cal_3D Circumcentric offset(Vector) : 프로시저 추가
+  <br> 01.계산/Cal_Centroid of 3 Poses : 프로시저 추가
+  <br> 01.계산 : MarkDown 내용 수정
+
+
 </details>

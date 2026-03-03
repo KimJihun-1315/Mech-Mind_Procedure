@@ -61,3 +61,10 @@
 <br>
 
 ## 업데이트 내역
+
+<details>
+<summary>Version</summary>
+
+* <b> 2026.02.25</b>
+  <br>전체 내용 수정 및 간소화
+</details>

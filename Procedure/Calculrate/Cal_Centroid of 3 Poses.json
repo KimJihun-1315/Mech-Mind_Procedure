@@ -1,0 +1,250 @@
+{
+    "ctrl_flows": [
+    ],
+    "data_flows": [
+        {
+            "dest_port": 0,
+            "dest_step": "{43895432-e952-4fb7-b669-0a64e37e0590}",
+            "src_port": 0,
+            "src_step": "{7ee90f70-27d8-4435-a5d5-d2981454b2d0}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{8016e6cf-ebc4-42da-8e4d-7f20a9649eab}",
+            "src_port": 0,
+            "src_step": "{7d1a93a9-a35b-4752-8565-bda4426b6e2f}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{6017d20b-d5ae-4586-b491-98ab23f08fea}",
+            "src_port": 0,
+            "src_step": "{7ce6a2ae-e4f4-4c4d-9a99-7dcd66a627d8}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{43191a36-4fa8-483f-8cd1-06a92454f7b6}",
+            "src_port": 0,
+            "src_step": "{0a45f07b-b5d8-4d34-ab26-a040f2ca8a9d}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{0a45f07b-b5d8-4d34-ab26-a040f2ca8a9d}",
+            "src_port": 0,
+            "src_step": "{43895432-e952-4fb7-b669-0a64e37e0590}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{7e214e41-4e7e-4548-988a-9767839caa9f}",
+            "src_port": 0,
+            "src_step": "{fb0a020d-47fc-4a87-b226-c9fa48a41825}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{fb0a020d-47fc-4a87-b226-c9fa48a41825}",
+            "src_port": 0,
+            "src_step": "{36cdca71-cca8-4ee5-9608-f940eb1f85c9}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{0a45f07b-b5d8-4d34-ab26-a040f2ca8a9d}",
+            "src_port": 0,
+            "src_step": "{7e214e41-4e7e-4548-988a-9767839caa9f}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{36cdca71-cca8-4ee5-9608-f940eb1f85c9}",
+            "src_port": 1,
+            "src_step": "{43895432-e952-4fb7-b669-0a64e37e0590}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{36cdca71-cca8-4ee5-9608-f940eb1f85c9}",
+            "src_port": 1,
+            "src_step": "{8016e6cf-ebc4-42da-8e4d-7f20a9649eab}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{fb0a020d-47fc-4a87-b226-c9fa48a41825}",
+            "src_port": 1,
+            "src_step": "{6017d20b-d5ae-4586-b491-98ab23f08fea}"
+        }
+    ],
+    "execFlags": 8,
+    "guid": "{fc2738e1-65c8-4dc5-9aba-d3d809ae3afc}",
+    "name": {
+        "en": "Cal_Centeroid of 3 Poses",
+        "ko": "계산_3개 포즈의 무게중심"
+    },
+    "objectName": "Cal_Centeroid of 3 Poses",
+    "parameterTuningLevel": 0,
+    "procedure_ends": [
+        {
+            "port": 0,
+            "step": "{43191a36-4fa8-483f-8cd1-06a92454f7b6}"
+        }
+    ],
+    "procedure_entries": [
+        {
+            "port": 0,
+            "step": "{7ee90f70-27d8-4435-a5d5-d2981454b2d0}"
+        },
+        {
+            "port": 0,
+            "step": "{7d1a93a9-a35b-4752-8565-bda4426b6e2f}"
+        },
+        {
+            "port": 0,
+            "step": "{7ce6a2ae-e4f4-4c4d-9a99-7dcd66a627d8}"
+        }
+    ],
+    "property_groups": {
+    },
+    "scene_pos": [
+        -933.3203125,
+        32.65625
+    ],
+    "steps": [
+        {
+            "execFlags": 12,
+            "guid": "{7e214e41-4e7e-4548-988a-9767839caa9f}",
+            "inputSource": 1,
+            "objectName": " (P1 +P2 + P3) / 3 ",
+            "operationType": 3,
+            "parameterTuningLevel": 0,
+            "predefinedNumber": 3,
+            "predefinedVector": "0, 0, 1",
+            "scene_pos": [
+                14.5,
+                709.8934800000004
+            ],
+            "type": "Vector3D Arithmetic Operations"
+        },
+        {
+            "execFlags": 12,
+            "guid": "{fb0a020d-47fc-4a87-b226-c9fa48a41825}",
+            "inputSource": 0,
+            "objectName": " P1 +P2 +P3 ",
+            "operationType": 0,
+            "parameterTuningLevel": 0,
+            "predefinedNumber": 1,
+            "predefinedVector": "0, 0, 1",
+            "scene_pos": [
+                14.5,
+                437.8934800000004
+            ],
+            "type": "Vector3D Arithmetic Operations"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{7ce6a2ae-e4f4-4c4d-9a99-7dcd66a627d8}",
+            "objectName": "Point 3",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                932.5,
+                -344.1065199999996
+            ],
+            "type": "Accept All"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{0a45f07b-b5d8-4d34-ab26-a040f2ca8a9d}",
+            "objectName": "conver to pose",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                -87.5,
+                981.8934800000004
+            ],
+            "showCloudInSceneType": 1,
+            "showPosesType": 1,
+            "type": "Compose Pose From Quaternion and Translation"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{7ee90f70-27d8-4435-a5d5-d2981454b2d0}",
+            "objectName": "Pose1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                -87.5,
+                -344.1065199999996
+            ],
+            "type": "Accept All"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{6017d20b-d5ae-4586-b491-98ab23f08fea}",
+            "objectName": "Pose to Vector 3",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                932.5,
+                -72.10651999999959
+            ],
+            "showCloudInSceneType": 1,
+            "showPosesType": 0,
+            "type": "Decompose Poses to Quaternions and Translations"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{43895432-e952-4fb7-b669-0a64e37e0590}",
+            "objectName": "Pose to Vector 1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                -87.5,
+                -72.10651999999959
+            ],
+            "showCloudInSceneType": 1,
+            "showPosesType": 0,
+            "type": "Decompose Poses to Quaternions and Translations"
+        },
+        {
+            "execFlags": 12,
+            "guid": "{36cdca71-cca8-4ee5-9608-f940eb1f85c9}",
+            "inputSource": 0,
+            "objectName": " P1 +P2 ",
+            "operationType": 0,
+            "parameterTuningLevel": 0,
+            "predefinedNumber": 1,
+            "predefinedVector": "0, 0, 1",
+            "scene_pos": [
+                14.5,
+                165.8934800000004
+            ],
+            "type": "Vector3D Arithmetic Operations"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{43191a36-4fa8-483f-8cd1-06a92454f7b6}",
+            "objectName": "Output_cal",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                -87.5,
+                1253.8934800000004
+            ],
+            "type": "Accept All"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{7d1a93a9-a35b-4752-8565-bda4426b6e2f}",
+            "objectName": "Point 2",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                422.5,
+                -344.1065199999996
+            ],
+            "type": "Accept All"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{8016e6cf-ebc4-42da-8e4d-7f20a9649eab}",
+            "objectName": "Pose to Vector 2",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                422.5,
+                -72.10651999999959
+            ],
+            "showCloudInSceneType": 1,
+            "showPosesType": 0,
+            "type": "Decompose Poses to Quaternions and Translations"
+        }
+    ],
+    "type": "Procedure"
+}

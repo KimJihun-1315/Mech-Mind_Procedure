@@ -1,0 +1,616 @@
+{
+    "ctrl_flows": [
+    ],
+    "data_flows": [
+        {
+            "dest_port": 0,
+            "dest_step": "{43895432-e952-4fb7-b669-0a64e37e0590}",
+            "src_port": 0,
+            "src_step": "{7ee90f70-27d8-4435-a5d5-d2981454b2d0}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{8016e6cf-ebc4-42da-8e4d-7f20a9649eab}",
+            "src_port": 0,
+            "src_step": "{7d1a93a9-a35b-4752-8565-bda4426b6e2f}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{6017d20b-d5ae-4586-b491-98ab23f08fea}",
+            "src_port": 0,
+            "src_step": "{7ce6a2ae-e4f4-4c4d-9a99-7dcd66a627d8}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{43191a36-4fa8-483f-8cd1-06a92454f7b6}",
+            "src_port": 0,
+            "src_step": "{0a45f07b-b5d8-4d34-ab26-a040f2ca8a9d}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{0a45f07b-b5d8-4d34-ab26-a040f2ca8a9d}",
+            "src_port": 0,
+            "src_step": "{43895432-e952-4fb7-b669-0a64e37e0590}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{0a45f07b-b5d8-4d34-ab26-a040f2ca8a9d}",
+            "src_port": 0,
+            "src_step": "{42ee1422-270d-41da-8de7-b44c8a4e133e}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{ac6017ff-d91a-43a4-92d8-58d2cce52d27}",
+            "src_port": 1,
+            "src_step": "{43895432-e952-4fb7-b669-0a64e37e0590}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{76e86282-5135-4f62-b225-f4519b7b24bf}",
+            "src_port": 1,
+            "src_step": "{8016e6cf-ebc4-42da-8e4d-7f20a9649eab}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{be9d452e-b3c5-43c9-9ef9-86daf1bab3de}",
+            "src_port": 1,
+            "src_step": "{6017d20b-d5ae-4586-b491-98ab23f08fea}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{42ee1422-270d-41da-8de7-b44c8a4e133e}",
+            "src_port": 0,
+            "src_step": "{0d4f18e7-53ce-4848-9937-389cac5f12a8}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{42ee1422-270d-41da-8de7-b44c8a4e133e}",
+            "src_port": 1,
+            "src_step": "{43895432-e952-4fb7-b669-0a64e37e0590}"
+        }
+    ],
+    "execFlags": 8,
+    "guid": "{fc2738e1-65c8-4dc5-9aba-d3d809ae3afc}",
+    "name": {
+        "en": "Cal_Circumcenter of 3Poses",
+        "ko": "계산_3개 포즈의  외심"
+    },
+    "objectName": "Cal_Circumcenter of 3Poses",
+    "parameterTuningLevel": 0,
+    "procedure_ends": [
+        {
+            "port": 0,
+            "step": "{43191a36-4fa8-483f-8cd1-06a92454f7b6}"
+        }
+    ],
+    "procedure_entries": [
+        {
+            "port": 0,
+            "step": "{7ee90f70-27d8-4435-a5d5-d2981454b2d0}"
+        },
+        {
+            "port": 0,
+            "step": "{7d1a93a9-a35b-4752-8565-bda4426b6e2f}"
+        },
+        {
+            "port": 0,
+            "step": "{7ce6a2ae-e4f4-4c4d-9a99-7dcd66a627d8}"
+        }
+    ],
+    "property_groups": {
+    },
+    "scene_pos": [
+        -933.3203125,
+        32.65625
+    ],
+    "steps": [
+        {
+            "ctrl_flows": [
+            ],
+            "data_flows": [
+                {
+                    "dest_port": 0,
+                    "dest_step": "{5e9d351f-5d4d-4a23-94ba-ffaec0d4262e}",
+                    "src_port": 0,
+                    "src_step": "{93b33b3e-b63b-4f75-b1a6-02aa6b395daa}"
+                },
+                {
+                    "dest_port": 1,
+                    "dest_step": "{5e9d351f-5d4d-4a23-94ba-ffaec0d4262e}",
+                    "src_port": 0,
+                    "src_step": "{95a116ef-b426-4fc3-880e-b9c87e5da9b3}"
+                },
+                {
+                    "dest_port": 0,
+                    "dest_step": "{114e9609-bfb4-4194-883e-b1a0f51151b7}",
+                    "src_port": 0,
+                    "src_step": "{93b33b3e-b63b-4f75-b1a6-02aa6b395daa}"
+                },
+                {
+                    "dest_port": 1,
+                    "dest_step": "{114e9609-bfb4-4194-883e-b1a0f51151b7}",
+                    "src_port": 0,
+                    "src_step": "{93b33b3e-b63b-4f75-b1a6-02aa6b395daa}"
+                },
+                {
+                    "dest_port": 0,
+                    "dest_step": "{88192652-d3a3-488c-9b8f-7fa083b7248e}",
+                    "src_port": 0,
+                    "src_step": "{95a116ef-b426-4fc3-880e-b9c87e5da9b3}"
+                },
+                {
+                    "dest_port": 1,
+                    "dest_step": "{88192652-d3a3-488c-9b8f-7fa083b7248e}",
+                    "src_port": 0,
+                    "src_step": "{95a116ef-b426-4fc3-880e-b9c87e5da9b3}"
+                },
+                {
+                    "dest_port": 0,
+                    "dest_step": "{fbe3c2a0-a080-4370-be55-2ada98ca6da1}",
+                    "src_port": 0,
+                    "src_step": "{5e9d351f-5d4d-4a23-94ba-ffaec0d4262e}"
+                },
+                {
+                    "dest_port": 1,
+                    "dest_step": "{fbe3c2a0-a080-4370-be55-2ada98ca6da1}",
+                    "src_port": 0,
+                    "src_step": "{5e9d351f-5d4d-4a23-94ba-ffaec0d4262e}"
+                },
+                {
+                    "dest_port": 0,
+                    "dest_step": "{500deff7-f80f-40df-9ded-1652000bc0a0}",
+                    "src_port": 0,
+                    "src_step": "{93b33b3e-b63b-4f75-b1a6-02aa6b395daa}"
+                },
+                {
+                    "dest_port": 1,
+                    "dest_step": "{500deff7-f80f-40df-9ded-1652000bc0a0}",
+                    "src_port": 0,
+                    "src_step": "{88192652-d3a3-488c-9b8f-7fa083b7248e}"
+                },
+                {
+                    "dest_port": 1,
+                    "dest_step": "{30d270f4-0ddc-4486-afa3-e8cd9b97588b}",
+                    "src_port": 0,
+                    "src_step": "{114e9609-bfb4-4194-883e-b1a0f51151b7}"
+                },
+                {
+                    "dest_port": 0,
+                    "dest_step": "{30d270f4-0ddc-4486-afa3-e8cd9b97588b}",
+                    "src_port": 0,
+                    "src_step": "{95a116ef-b426-4fc3-880e-b9c87e5da9b3}"
+                },
+                {
+                    "dest_port": 0,
+                    "dest_step": "{fe35c81e-7a8a-40cf-9d55-b7696dc8a0c8}",
+                    "src_port": 0,
+                    "src_step": "{500deff7-f80f-40df-9ded-1652000bc0a0}"
+                },
+                {
+                    "dest_port": 1,
+                    "dest_step": "{fe35c81e-7a8a-40cf-9d55-b7696dc8a0c8}",
+                    "src_port": 0,
+                    "src_step": "{30d270f4-0ddc-4486-afa3-e8cd9b97588b}"
+                },
+                {
+                    "dest_port": 0,
+                    "dest_step": "{d0c54187-7040-442d-b39e-301b0ffaede6}",
+                    "src_port": 0,
+                    "src_step": "{fbe3c2a0-a080-4370-be55-2ada98ca6da1}"
+                },
+                {
+                    "dest_port": 1,
+                    "dest_step": "{2e2a58bf-6b09-4724-8185-ac8efb42b001}",
+                    "src_port": 0,
+                    "src_step": "{d0c54187-7040-442d-b39e-301b0ffaede6}"
+                },
+                {
+                    "dest_port": 1,
+                    "dest_step": "{93b33b3e-b63b-4f75-b1a6-02aa6b395daa}",
+                    "src_port": 0,
+                    "src_step": "{ac6017ff-d91a-43a4-92d8-58d2cce52d27}"
+                },
+                {
+                    "dest_port": 1,
+                    "dest_step": "{95a116ef-b426-4fc3-880e-b9c87e5da9b3}",
+                    "src_port": 0,
+                    "src_step": "{ac6017ff-d91a-43a4-92d8-58d2cce52d27}"
+                },
+                {
+                    "dest_port": 0,
+                    "dest_step": "{93b33b3e-b63b-4f75-b1a6-02aa6b395daa}",
+                    "src_port": 0,
+                    "src_step": "{76e86282-5135-4f62-b225-f4519b7b24bf}"
+                },
+                {
+                    "dest_port": 0,
+                    "dest_step": "{95a116ef-b426-4fc3-880e-b9c87e5da9b3}",
+                    "src_port": 0,
+                    "src_step": "{be9d452e-b3c5-43c9-9ef9-86daf1bab3de}"
+                },
+                {
+                    "dest_port": 0,
+                    "dest_step": "{d5421ae8-0671-4e72-bcbe-8c0d3e9be812}",
+                    "src_port": 0,
+                    "src_step": "{fe35c81e-7a8a-40cf-9d55-b7696dc8a0c8}"
+                },
+                {
+                    "dest_port": 0,
+                    "dest_step": "{2e2a58bf-6b09-4724-8185-ac8efb42b001}",
+                    "src_port": 0,
+                    "src_step": "{d5421ae8-0671-4e72-bcbe-8c0d3e9be812}"
+                },
+                {
+                    "dest_port": 0,
+                    "dest_step": "{0d4f18e7-53ce-4848-9937-389cac5f12a8}",
+                    "src_port": 0,
+                    "src_step": "{2e2a58bf-6b09-4724-8185-ac8efb42b001}"
+                },
+                {
+                    "dest_port": 1,
+                    "dest_step": "{d5421ae8-0671-4e72-bcbe-8c0d3e9be812}",
+                    "src_port": 0,
+                    "src_step": "{5e9d351f-5d4d-4a23-94ba-ffaec0d4262e}"
+                }
+            ],
+            "execFlags": 8,
+            "guid": "{e3a733d9-9026-415c-970a-1c340952e920}",
+            "name": {
+                "en": "Cal_3D Circumcentric offset(Vector)",
+                "ko": "계산_3차원 외심 오프셋(벡터)"
+            },
+            "objectName": "Cal_3D Circumcentric offset(Vector)",
+            "parameterTuningLevel": 0,
+            "procedure_ends": [
+                {
+                    "port": 0,
+                    "step": "{0d4f18e7-53ce-4848-9937-389cac5f12a8}"
+                }
+            ],
+            "procedure_entries": [
+                {
+                    "port": 0,
+                    "step": "{ac6017ff-d91a-43a4-92d8-58d2cce52d27}"
+                },
+                {
+                    "port": 0,
+                    "step": "{76e86282-5135-4f62-b225-f4519b7b24bf}"
+                },
+                {
+                    "port": 0,
+                    "step": "{be9d452e-b3c5-43c9-9ef9-86daf1bab3de}"
+                }
+            ],
+            "property_groups": {
+            },
+            "scene_pos": [
+                139.75,
+                290.3395600000006
+            ],
+            "steps": [
+                {
+                    "execFlags": 8,
+                    "guid": "{5e9d351f-5d4d-4a23-94ba-ffaec0d4262e}",
+                    "objectName": " b x c ",
+                    "parameterTuningLevel": 0,
+                    "predefinedVector": "0, 0, 1",
+                    "scene_pos": [
+                        1246.75,
+                        492.5580400000001
+                    ],
+                    "type": "Calc Cross Product of Vector3D"
+                },
+                {
+                    "execFlags": 8,
+                    "guid": "{2e2a58bf-6b09-4724-8185-ac8efb42b001}",
+                    "inputSource": 1,
+                    "objectName": "분모,분자 결합",
+                    "operationType": 3,
+                    "parameterTuningLevel": 0,
+                    "predefinedNumber": 1,
+                    "predefinedVector": "0, 0, 1",
+                    "scene_pos": [
+                        209.75,
+                        1785.5580400000001
+                    ],
+                    "type": "Vector3D Arithmetic Operations"
+                },
+                {
+                    "execFlags": 8,
+                    "guid": "{114e9609-bfb4-4194-883e-b1a0f51151b7}",
+                    "objectName": " b . b ( = \\\\b\\\\^2 ) ",
+                    "parameterTuningLevel": 0,
+                    "predefinedVector": "0, 0, 1",
+                    "scene_pos": [
+                        345.75,
+                        493.5580400000001
+                    ],
+                    "type": "Calc Dot Product of Vector3D"
+                },
+                {
+                    "execFlags": 8,
+                    "guid": "{d0c54187-7040-442d-b39e-301b0ffaede6}",
+                    "objectName": " (\\\\b x c\\\\^2) * 2",
+                    "operand": 2,
+                    "operationType": 2,
+                    "parameterTuningLevel": 0,
+                    "scene_pos": [
+                        1246.75,
+                        1244.5580400000001
+                    ],
+                    "type": "Numeric Operation"
+                },
+                {
+                    "execFlags": 12,
+                    "guid": "{95a116ef-b426-4fc3-880e-b9c87e5da9b3}",
+                    "inputSource": 0,
+                    "objectName": "c=C-A",
+                    "operationType": 1,
+                    "parameterTuningLevel": 0,
+                    "predefinedNumber": 1,
+                    "predefinedVector": "0, 0, 1",
+                    "scene_pos": [
+                        651.75,
+                        221.55804000000012
+                    ],
+                    "type": "Vector3D Arithmetic Operations"
+                },
+                {
+                    "execFlags": 8,
+                    "guid": "{fe35c81e-7a8a-40cf-9d55-b7696dc8a0c8}",
+                    "inputSource": 0,
+                    "objectName": " (\\\\c\\\\^2) * b - (\\\\b\\\\^2) * c ",
+                    "operationType": 1,
+                    "parameterTuningLevel": 0,
+                    "predefinedNumber": 1,
+                    "predefinedVector": "0, 0, 1",
+                    "scene_pos": [
+                        209.75,
+                        1173.5580400000001
+                    ],
+                    "type": "Vector3D Arithmetic Operations"
+                },
+                {
+                    "execFlags": 8,
+                    "guid": "{be9d452e-b3c5-43c9-9ef9-86daf1bab3de}",
+                    "objectName": "C",
+                    "parameterTuningLevel": 0,
+                    "scene_pos": [
+                        821.75,
+                        -118.44195999999988
+                    ],
+                    "type": "Accept All"
+                },
+                {
+                    "description": {
+                    },
+                    "execFlags": 8,
+                    "guid": "{fbe3c2a0-a080-4370-be55-2ada98ca6da1}",
+                    "objectName": " (b x c) . (b x c) ( =\\\\b x c\\\\^2 ) ",
+                    "parameterTuningLevel": 0,
+                    "predefinedVector": "0, 0, 1",
+                    "scene_pos": [
+                        1246.75,
+                        876.5580400000001
+                    ],
+                    "type": "Calc Dot Product of Vector3D"
+                },
+                {
+                    "execFlags": 8,
+                    "guid": "{ac6017ff-d91a-43a4-92d8-58d2cce52d27}",
+                    "objectName": "A",
+                    "parameterTuningLevel": 0,
+                    "scene_pos": [
+                        209.75,
+                        -118.44195999999988
+                    ],
+                    "type": "Accept All"
+                },
+                {
+                    "execFlags": 12,
+                    "guid": "{93b33b3e-b63b-4f75-b1a6-02aa6b395daa}",
+                    "inputSource": 0,
+                    "objectName": "b=B-A",
+                    "operationType": 1,
+                    "parameterTuningLevel": 0,
+                    "predefinedNumber": 1,
+                    "predefinedVector": "0, 0, 1",
+                    "scene_pos": [
+                        209.75,
+                        221.55804000000012
+                    ],
+                    "type": "Vector3D Arithmetic Operations"
+                },
+                {
+                    "execFlags": 8,
+                    "guid": "{500deff7-f80f-40df-9ded-1652000bc0a0}",
+                    "inputSource": 1,
+                    "objectName": " (\\\\c\\\\^2) * b ",
+                    "operationType": 2,
+                    "parameterTuningLevel": 0,
+                    "predefinedNumber": 1,
+                    "predefinedVector": "0, 0, 1",
+                    "scene_pos": [
+                        209.75,
+                        867.5580400000001
+                    ],
+                    "type": "Vector3D Arithmetic Operations"
+                },
+                {
+                    "execFlags": 8,
+                    "guid": "{76e86282-5135-4f62-b225-f4519b7b24bf}",
+                    "objectName": "B",
+                    "parameterTuningLevel": 0,
+                    "scene_pos": [
+                        515.75,
+                        -118.44195999999988
+                    ],
+                    "type": "Accept All"
+                },
+                {
+                    "execFlags": 8,
+                    "guid": "{30d270f4-0ddc-4486-afa3-e8cd9b97588b}",
+                    "inputSource": 1,
+                    "objectName": " (\\\\b\\\\^2) * c ",
+                    "operationType": 2,
+                    "parameterTuningLevel": 0,
+                    "predefinedNumber": 1,
+                    "predefinedVector": "0, 0, 1",
+                    "scene_pos": [
+                        515.75,
+                        867.5580400000001
+                    ],
+                    "type": "Vector3D Arithmetic Operations"
+                },
+                {
+                    "execFlags": 8,
+                    "guid": "{d5421ae8-0671-4e72-bcbe-8c0d3e9be812}",
+                    "objectName": " { (\\\\c\\\\^2) * b - (\\\\b\\\\^2) * c }  x  (b x c) ",
+                    "parameterTuningLevel": 0,
+                    "predefinedVector": "1, 1, 1",
+                    "scene_pos": [
+                        209.75,
+                        1479.5580400000001
+                    ],
+                    "type": "Calc Cross Product of Vector3D"
+                },
+                {
+                    "execFlags": 8,
+                    "guid": "{0d4f18e7-53ce-4848-9937-389cac5f12a8}",
+                    "objectName": "result",
+                    "parameterTuningLevel": 0,
+                    "scene_pos": [
+                        209.75,
+                        2091.55804
+                    ],
+                    "type": "Accept All"
+                },
+                {
+                    "execFlags": 8,
+                    "guid": "{88192652-d3a3-488c-9b8f-7fa083b7248e}",
+                    "objectName": " c . c ( =\\\\c\\\\^2  ) ",
+                    "parameterTuningLevel": 0,
+                    "predefinedVector": "0, 0, 1",
+                    "scene_pos": [
+                        787.75,
+                        493.5580400000001
+                    ],
+                    "type": "Calc Dot Product of Vector3D"
+                }
+            ],
+            "type": "Procedure"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{7ce6a2ae-e4f4-4c4d-9a99-7dcd66a627d8}",
+            "objectName": "Point 3",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                931.75,
+                -333.6604399999994
+            ],
+            "type": "Accept All"
+        },
+        {
+            "execFlags": 9,
+            "guid": "{0a45f07b-b5d8-4d34-ab26-a040f2ca8a9d}",
+            "objectName": "conver to pose",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                -76.25,
+                818.3395600000006
+            ],
+            "showCloudInSceneType": 1,
+            "showPosesType": 1,
+            "type": "Compose Pose From Quaternion and Translation"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{7ee90f70-27d8-4435-a5d5-d2981454b2d0}",
+            "objectName": "Pose1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                -76.25,
+                -333.6604399999994
+            ],
+            "type": "Accept All"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{6017d20b-d5ae-4586-b491-98ab23f08fea}",
+            "objectName": "Pose to Vector 3",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                931.75,
+                -45.660439999999426
+            ],
+            "showCloudInSceneType": 1,
+            "showPosesType": 0,
+            "type": "Decompose Poses to Quaternions and Translations"
+        },
+        {
+            "execFlags": 9,
+            "guid": "{43895432-e952-4fb7-b669-0a64e37e0590}",
+            "objectName": "Pose to Vector 1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                -76.25,
+                -45.660439999999426
+            ],
+            "showCloudInSceneType": 1,
+            "showPosesType": 0,
+            "type": "Decompose Poses to Quaternions and Translations"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{42ee1422-270d-41da-8de7-b44c8a4e133e}",
+            "inputSource": 0,
+            "objectName": "Add offset",
+            "operationType": 0,
+            "parameterTuningLevel": 0,
+            "predefinedNumber": 1,
+            "predefinedVector": "1, 1, 1",
+            "scene_pos": [
+                19.75,
+                554.3395600000006
+            ],
+            "type": "Vector3D Arithmetic Operations"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{43191a36-4fa8-483f-8cd1-06a92454f7b6}",
+            "objectName": "Output_cal",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                -76.25,
+                1106.3395600000006
+            ],
+            "type": "Accept All"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{7d1a93a9-a35b-4752-8565-bda4426b6e2f}",
+            "objectName": "Point 2",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                427.75,
+                -333.6604399999994
+            ],
+            "type": "Accept All"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{8016e6cf-ebc4-42da-8e4d-7f20a9649eab}",
+            "objectName": "Pose to Vector 2",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                427.75,
+                -45.660439999999426
+            ],
+            "showCloudInSceneType": 1,
+            "showPosesType": 0,
+            "type": "Decompose Poses to Quaternions and Translations"
+        }
+    ],
+    "type": "Procedure"
+}

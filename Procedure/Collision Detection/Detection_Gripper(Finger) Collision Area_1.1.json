@@ -85,7 +85,7 @@
     "guid": "{cf6a15c7-6e13-4a8b-bc31-191291d0d57a}",
     "name": {
         "en": "Detection_Gripper(Finger) Collision Area",
-        "ko": "감지_그리퍼(핑거) 충돌영역\n"
+        "ko": "충돌감지_그리퍼(핑거) 충돌영역\n"
     },
     "objectName": "프로시저_3",
     "parameterTuningLevel": 0,

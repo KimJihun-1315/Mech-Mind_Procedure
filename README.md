@@ -32,29 +32,30 @@
 
 <br><br>
 
-## 02. 취득
-<!-- Get_Highest PointCloud[취득_최상단 포인트클라우드] -->
-### [Get_Highest PointCloud](./Procedure/GetData) [취득_최상단 포인트클라우드]
-    <br>
-    ex)
+## 02. 충돌감지
+
+<!-- Detection_Gripper(Finger) Collision Area[충돌감지_그리퍼(핑거) 충돌영역] -->
+### [Detection_Gripper(Finger) Collision Area](./Procedure/Collision%20Detection/) [충돌감지_그리퍼(핑거) 충돌영역]
+    2 Fingger Gripper를 사용하는 시나리오에 특화되어있으며, 
+    피킹지점에 한하여 충돌감지 함
+
+    ⚠️ 경로에대한 회피는 감지할수 없습니다. ⚠️
+
+<br><br>
+
+## 03. 데이터획득
+<!-- Get_HighestPart PointCloud & Image[취득_최상단 포인트클라우드 & 이미지] -->
+### [Get_HighestPart PointCloud & Image](./Procedure/GetData) [취득_최상단 포인트클라우드 & 이미지]
+    캡쳐시에 카메라에서 ROI 내에서 가장 가까운 위치에 존재하는 
+    포인트 클라우드,마스크이미지, 2D이미지를 획득 함
 <!-- Get_Pose through MaskImage[취득_마스크를 통한 포즈] -->
 ### [Get_Pose through MaskImage](./Procedure/GetData) [취득_마스크를 통한 포즈]
-    <br>
-    ex)
+    일반적으로 딥러닝을 통한 마스크 이미지 획득 후 사용되며, 
+    마스크이미지에 해당하는 영역의 포인트 클라우드에 대한 중심좌표를 형성 함
 
 <br><br>
 
-## 03.저장
-<!-- Save_HighestPart(PointCloud) Image[저장_최상단 포인트클라우드 이미지] -->
-### [Save_Highest PointCloud Image](./Procedure/SaveData) [저장_최상단 포인트클라우드 이미지]
-    <br>
-    ex) 
-<!-- Save_Image for PointCloud[저장_포인트클라우드에 해당하는 이미지] -->
-### [Save_Image for PointCloud](./Procedure/SaveData) [저장_포인트클라우드에 해당하는 이미지]
-    <br>
-    ex) 
 
-<br><br>
 
 <!-- 프로시져 목록 끝 -->
 <br>
@@ -73,6 +74,16 @@
   <br> 01.계산/Cal_3D Circumcentric offset(Vector) : 프로시저 추가
   <br> 01.계산/Cal_Centroid of 3 Poses : 프로시저 추가
   <br> 01.계산 : MarkDown 내용 수정
+
+* <b> 2026.03.10</b>
+  <br> "저장" 관련 자료 삭제
+  <br> "충돌감지" 관련 자료 신규추가
+  <br> 02.충돌감지/충돌감지_그리퍼(핑거) 충돌영역 : 프로시저 추가 및 .md 내용 보완
+  <br> "데이터획득" 관련 자료 수정
+  <br> 03.데이터획득/취득_최상단 포인트클라우드 & 이미지 : 프로시저 보완 및 .md 내용수정
+  <br> 03.데이터획득/취득_최상단 포인트클라우드 & 이미지 : 프로시저 .md 내용수정
+  <br> 
+
 
 
 </details>

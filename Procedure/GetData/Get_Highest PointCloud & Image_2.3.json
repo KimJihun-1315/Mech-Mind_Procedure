@@ -1,0 +1,326 @@
+{
+    "ctrl_flows": [
+    ],
+    "data_flows": [
+        {
+            "dest_port": 0,
+            "dest_step": "{1a8a2c96-8eba-4194-9ea5-6db653265344}",
+            "src_port": 0,
+            "src_step": "{6ac171d5-da37-40fc-b45b-dd93bb385b3a}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{14ec43a8-02de-43d8-8db8-2829db7ffd05}",
+            "src_port": 0,
+            "src_step": "{1a8a2c96-8eba-4194-9ea5-6db653265344}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{6a74cde1-4f4d-42b8-9ede-012eaed70d22}",
+            "src_port": 0,
+            "src_step": "{14ec43a8-02de-43d8-8db8-2829db7ffd05}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{6ac171d5-da37-40fc-b45b-dd93bb385b3a}",
+            "src_port": 0,
+            "src_step": "{0ef74a59-a744-41df-92f6-7d6eb515e6c9}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{6ac171d5-da37-40fc-b45b-dd93bb385b3a}",
+            "src_port": 0,
+            "src_step": "{9fbeb2ed-f475-428c-861f-3feb1e3da999}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{38ce27d4-da54-49ed-bd55-c7bad2cfcacb}",
+            "src_port": 0,
+            "src_step": "{f045e087-9ed9-4cca-83cd-cb07c7760175}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{38ce27d4-da54-49ed-bd55-c7bad2cfcacb}",
+            "src_port": 0,
+            "src_step": "{9fbeb2ed-f475-428c-861f-3feb1e3da999}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{6afb553d-4efb-4d6f-ab35-f86913ae7520}",
+            "src_port": 0,
+            "src_step": "{38ce27d4-da54-49ed-bd55-c7bad2cfcacb}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{4ffda927-d9f6-4e25-a2f4-8f85115bbca2}",
+            "src_port": 0,
+            "src_step": "{f045e087-9ed9-4cca-83cd-cb07c7760175}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{75d2e6ef-de42-49fd-926d-471cfd27c829}",
+            "src_port": 0,
+            "src_step": "{6a74cde1-4f4d-42b8-9ede-012eaed70d22}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{06da4fa3-e728-4313-865b-759d5b33b0a4}",
+            "src_port": 0,
+            "src_step": "{75d2e6ef-de42-49fd-926d-471cfd27c829}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{f045e087-9ed9-4cca-83cd-cb07c7760175}",
+            "src_port": 0,
+            "src_step": "{06da4fa3-e728-4313-865b-759d5b33b0a4}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{d324c224-adc0-4603-aa2a-aebfafb5eec4}",
+            "src_port": 0,
+            "src_step": "{06da4fa3-e728-4313-865b-759d5b33b0a4}"
+        }
+    ],
+    "description": {
+    },
+    "execFlags": 8,
+    "guid": "{2c952578-8a69-4454-8f2a-4a4624e60020}",
+    "name": {
+        "en": "Get_HighestPart PointCloud & Image",
+        "ko": "취득_최상단 포인트클라우드 & 이미지"
+    },
+    "objectName": "취득_최상단 포인트클라우드 & 이미지",
+    "parameterTuningLevel": 0,
+    "procedure_ends": [
+        {
+            "port": 0,
+            "step": "{d324c224-adc0-4603-aa2a-aebfafb5eec4}"
+        },
+        {
+            "port": 0,
+            "step": "{4ffda927-d9f6-4e25-a2f4-8f85115bbca2}"
+        },
+        {
+            "port": 0,
+            "step": "{6afb553d-4efb-4d6f-ab35-f86913ae7520}"
+        }
+    ],
+    "procedure_entries": [
+        {
+            "port": 0,
+            "step": "{0ef74a59-a744-41df-92f6-7d6eb515e6c9}"
+        },
+        {
+            "port": 0,
+            "step": "{9fbeb2ed-f475-428c-861f-3feb1e3da999}"
+        }
+    ],
+    "property_groups": {
+        "groupInfos": [
+            {
+                "en": "층 높이",
+                "properties": [
+                    "가장 높은 층의 포인트 클라우드를 획득하기_1_layerHeight"
+                ]
+            }
+        ],
+        "properties": [
+            {
+                "attr": {
+                    "en": {
+                        "decimals": 4,
+                        "name": "간격",
+                        "singleStep": 0.0001
+                    }
+                },
+                "name": "layerHeight",
+                "step": "{75d2e6ef-de42-49fd-926d-471cfd27c829}",
+                "type": 2
+            }
+        ]
+    },
+    "scene_pos": [
+        -176,
+        -460
+    ],
+    "steps": [
+        {
+            "depthRoiFileName": "depth_image_roi",
+            "execFlags": 9,
+            "guid": "{6ac171d5-da37-40fc-b45b-dd93bb385b3a}",
+            "objectName": "뎁스 맵을 포인트 클라우드로 전환하기_1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                161.33749999999998,
+                -879.5325
+            ],
+            "type": "From Depth Map to Point Cloud"
+        },
+        {
+            "VoxelGridSampler": {
+                "leafSize": 0.001
+            },
+            "execFlags": 9,
+            "guid": "{14ec43a8-02de-43d8-8db8-2829db7ffd05}",
+            "objectName": "포인트 클라우드 다운 샘플링_1",
+            "parameterTuningLevel": 0,
+            "samplerType": "VoxelGridSampler",
+            "scene_pos": [
+                161.33749999999998,
+                -287.5325
+            ],
+            "type": "Down-Sample Point Cloud"
+        },
+        {
+            "NormalEstimation": {
+                "halfKernelSize": 3,
+                "searchRadius": 0.005
+            },
+            "cloudPreprocessingType": "NormalEstimation",
+            "execFlags": 9,
+            "guid": "{1a8a2c96-8eba-4194-9ea5-6db653265344}",
+            "minDepthOfValidPoint": 0.1,
+            "objectName": "포인트 클라우드의 법선 벡터를 계산하고 필터링하기_1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                161.33749999999998,
+                -583.5325
+            ],
+            "type": "Calc Normals of Point Cloud and Filter It"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{6afb553d-4efb-4d6f-ab35-f86913ae7520}",
+            "objectName": "모든 파라미터를 받아들이기_4",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                448.3375,
+                1494.4675
+            ],
+            "type": "Accept All"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{0ef74a59-a744-41df-92f6-7d6eb515e6c9}",
+            "objectName": "PreProcessing-input <Image/Depth>",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                161.33749999999998,
+                -1175.5325
+            ],
+            "type": "Accept All"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{9fbeb2ed-f475-428c-861f-3feb1e3da999}",
+            "objectName": "PreProcessing-input <Image/Color->",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                737.3375,
+                -1175.5325
+            ],
+            "type": "Accept All"
+        },
+        {
+            "EuclideanCluster": {
+                "clusterTolerance": 0.002,
+                "cores": 4
+            },
+            "cloudClusterType": "EuclideanCluster",
+            "execFlags": 9,
+            "guid": "{6a74cde1-4f4d-42b8-9ede-012eaed70d22}",
+            "maxClusterNum": 2000000,
+            "minClusterNum": 500,
+            "objectName": "포인트 클라우드 클러스터링_1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                161.33749999999998,
+                8.467499999999973
+            ],
+            "type": "Point Cloud Clustering"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{06da4fa3-e728-4313-865b-759d5b33b0a4}",
+            "objectName": "포인트 클라우드를 합치기_1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                161.33749999999998,
+                600.4675
+            ],
+            "type": "Merge Point Clouds"
+        },
+        {
+            "execFlags": 9,
+            "guid": "{75d2e6ef-de42-49fd-926d-471cfd27c829}",
+            "layerDiffTolerance": 1,
+            "layerHeight": 0.1,
+            "maxSizeCloudNormalZDir": 1,
+            "objectName": "가장 높은 층의 포인트 클라우드를 획득하기_1",
+            "onlyGetHighestOne": false,
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                161.33749999999998,
+                304.4675
+            ],
+            "type": "Get Highest Layer Clouds",
+            "useMaxSizeCloudNormal": false,
+            "x": 0,
+            "y": 0,
+            "z": -1
+        },
+        {
+            "execFlags": 8,
+            "guid": "{4ffda927-d9f6-4e25-a2f4-8f85115bbca2}",
+            "objectName": "모든 파라미터를 받아들이기_5",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                832.3375,
+                1206.4675
+            ],
+            "type": "Accept All"
+        },
+        {
+            "closingOperateSize": 7,
+            "dilateSize": 21,
+            "erodeSize": 21,
+            "execFlags": 8,
+            "guid": "{f045e087-9ed9-4cca-83cd-cb07c7760175}",
+            "imageType": 0,
+            "objectName": "3D 포인트 클라우드를 2D 이미지로 투영하기_1",
+            "parameterTuningLevel": 0,
+            "projectAlongObjZAxis": true,
+            "projectionType": 0,
+            "scaleRatio": 1000,
+            "scene_pos": [
+                520.3375,
+                894.4675
+            ],
+            "type": "Project 3D Point Cloud to 2D Image",
+            "useMorphOperation": true
+        },
+        {
+            "execFlags": 8,
+            "guid": "{d324c224-adc0-4603-aa2a-aebfafb5eec4}",
+            "objectName": "모든 파라미터를 받아들이기_3",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                161.33749999999998,
+                896.4675
+            ],
+            "type": "Accept All"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{38ce27d4-da54-49ed-bd55-c7bad2cfcacb}",
+            "objectName": "마스크안에 대응하는 이미지를 추출하기_1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                448.3375,
+                1206.4675
+            ],
+            "type": "Apply Masks to Image"
+        }
+    ],
+    "type": "Procedure"
+}

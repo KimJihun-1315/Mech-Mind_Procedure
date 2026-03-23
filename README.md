@@ -20,7 +20,7 @@
 <!-- Cal_3D Circumcentric offset(Vector)[계산_3차원 외심 오프셋(벡터)] -->
 ### [Cal_3D Circumcentric offset(Vector)](./Procedure/Calculrate) [계산_3차원 외심 오프셋(벡터)]
     3차원상의 점을 통하여 점A에서 외심까지의 거리를 구하는 계산식
-![ 계산식 ](image.png)
+![ 계산식 ](\md_img\image.png)
 
 <!-- Cal_Centroid of 3 Poses[계산_3개 포즈의 무게중심] -->
 ### [Cal_Centroid of 3 Poses](./Procedure/Calculrate) [계산_3개 포즈의 무게중심]

@@ -15,35 +15,7 @@
 <br><br>
 # 프로시저 목록
 
-## 01. 계산
-
-<!-- Cal_3D Circumcentric offset(Vector)[계산_3차원 외심 오프셋(벡터)] -->
-### [Cal_3D Circumcentric offset(Vector)](./Procedure/Calculrate) [계산_3차원 외심 오프셋(벡터)]
-    3차원상의 점을 통하여 점A에서 외심까지의 거리를 구하는 계산식
-![ 계산식 ](image.png)
-
-<!-- Cal_Centroid of 3 Poses[계산_3개 포즈의 무게중심] -->
-### [Cal_Centroid of 3 Poses](./Procedure/Calculrate) [계산_3개 포즈의 무게중심]
-    각기 다른 3곳의 포즈를 통해 무게 중심을 구함
-
-<!-- Cal_Circumcenter of 3 Poses[계산_3개 포즈의 외심] -->
-### [Cal_Circumcenter of 3 Poses](./Procedure/Calculrate) [계산_3개 포즈의 외심]
-    각기 다른 3곳의 포즈를 통해 외심을 구함
-
-<br><br>
-
-## 02. 충돌감지
-
-<!-- Detection_Gripper(Finger) Collision Area[충돌감지_그리퍼(핑거) 충돌영역] -->
-### [Detection_Gripper(Finger) Collision Area](./Procedure/Collision%20Detection/) [충돌감지_그리퍼(핑거) 충돌영역]
-    2 Fingger Gripper를 사용하는 시나리오에 특화되어있으며, 
-    피킹지점에 한하여 충돌감지 함
-
-    ⚠️ 경로에대한 회피는 감지할수 없습니다. ⚠️
-
-<br><br>
-
-## 03. 데이터획득
+## 01. 데이터획득
 <!-- Get_HighestPart PointCloud & Image[취득_최상단 포인트클라우드 & 이미지] -->
 ### [Get_HighestPart PointCloud & Image](./Procedure/GetData) [취득_최상단 포인트클라우드 & 이미지]
     캡쳐시에 카메라에서 ROI 내에서 가장 가까운 위치에 존재하는 
@@ -55,11 +27,39 @@
 
 <br><br>
 
-## 04. 정렬&필터
+## 02. 계산
+
+<!-- Cal_3D Circumcentric offset(Vector)[계산_3차원 외심 오프셋(벡터)] -->
+### [Cal_3D Circumcentric offset(Vector)](./Procedure/Calculrate) [계산_3차원 외심 오프셋(벡터)]
+    3차원상의 점을 통하여 점A에서 외심까지의 거리를 구하는 계산식
+![ 계산식 ](./md_img/image.png)
+
+<!-- Cal_Centroid of 3 Poses[계산_3개 포즈의 무게중심] -->
+### [Cal_Centroid of 3 Poses](./Procedure/Calculrate) [계산_3개 포즈의 무게중심]
+    각기 다른 3곳의 포즈를 통해 무게 중심을 구함
+
+<!-- Cal_Circumcenter of 3 Poses[계산_3개 포즈의 외심] -->
+### [Cal_Circumcenter of 3 Poses](./Procedure/Calculrate) [계산_3개 포즈의 외심]
+    각기 다른 3곳의 포즈를 통해 외심을 구함
+    
+<br><br>
+
+## 03. 정렬&필터
 <!-- Filter_Specified Position at Array[필터_배열 내 지정위치] -->
 ### [Filter_Specified Position at Array](./Procedure/Filter&Sort) [필터_배열 내 지정위치]
     입력포트에 연결된 List값 중 파라미터에서 지정한 위치의 값을 출력함
     💡 정렬후 N번째에 위치한 제품의 포즈가 필요할 때 사용됨
+
+<br><br>
+
+## 04. 충돌감지
+
+<!-- Detection_Gripper(Finger) Collision Area[충돌감지_그리퍼(핑거) 충돌영역] -->
+### [Detection_Gripper(Finger) Collision Area](./Procedure/Collision%20Detection/) [충돌감지_그리퍼(핑거) 충돌영역]
+    2 Fingger Gripper를 사용하는 시나리오에 특화되어있으며, 
+    피킹지점에 한하여 충돌감지 함
+
+    ⚠️ 경로에대한 회피는 감지할수 없습니다. ⚠️
 
 <br><br>
 

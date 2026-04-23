@@ -59,7 +59,7 @@
 <!-- Filter_Specified Position at Array[필터_배열 내 지정위치] -->
 ### [Filter_Specified Position at Array](./Procedure/Filter&Sort) [필터_배열 내 지정위치]
     입력포트에 연결된 List값 중 파라미터에서 지정한 위치의 값을 출력함
-    ex) 정렬후 N번째에 위치한 제품의 포즈가 필요할 때 사용됨
+    💡 정렬후 N번째에 위치한 제품의 포즈가 필요할 때 사용됨
 
 <br><br>
 
